@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    body{
+        padding: 50px;
+        background : linear-gradient(to right, #e185c2, #bc6fe2)
+    }
+</style>
+
+
+<body>
+    <div>
+        <h1>Semester Details</h1>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="session">session:*</label><br>
+            <input class="text" id="session" placeholder="session">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="collage">collage</label><br>
+            <select class="form-control" id="collage">
+                <option value="">Collage</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="start date">Session Start Date</label>
+            <input type="date" class="form-control" id="start date" placeholder="Session">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="last date">Session Last Date</label>
+            <input type="date" class="form-control" id="last date" placeholder="Session">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="admission date">Admission Date</label><br>
+            <input type="date" id="admission date" class="form-control" >
+        </div>
+        <div class="form-group col-md-6">
+            <label for="payment date">Payment Date</label><br>
+            <input type="date" id="payment date" class="form-control" >
+        </div>
+    </div>
+</body>
+</html>
